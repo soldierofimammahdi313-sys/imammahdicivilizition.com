@@ -1,0 +1,27 @@
+# 🌟 Imam Mahdi Civilization (imammahdicivilization.com)
+**Founder:** Syed Ahmad Raza Shamsi  
+**Architecture:** Lovable.dev (Frontend) + Heavy-Duty Cyber Shield & Rust/Assembly (Backend Engine)
+
+---
+
+## 🛠️ ڈویلپرز کے لیے اہم ہدایات (Lovable.dev Integration Guide)
+
+یہ پروجیکٹ صرف ایک فرنٹ اینڈ ڈیزائن نہیں ہے، بلکہ ایک مکمل ڈیجیٹل سسٹم ہے۔ اس ریپوزٹری میں موجود ملٹری گریڈ سیکیورٹی، ایڈسینس شیلڈ، اور اسپیڈ بوسٹر کوڈز کو لائیو سرور پر لاگو کرنے کے لیے درج ذیل اقدامات کریں:
+
+### 1. فرنٹ اینڈ اور بیک اینڈ کو جوڑنا (Full-Stack Routing)
+- **Lovable UI:** ڈیزائن کے لیے Lovable کے تیار کردہ اسٹرکچر کو استعمال کریں۔
+- **AdSense Route Shield (`adsense_route_shield.py`):** سرور مڈل ویئر (Middleware) میں اس فائل کو انٹیگریٹ کریں تاکہ گوگل بوٹس کے آنے پر نامکمل صفحات خودکار طور پر ہائیڈ (404) ہو جائیں۔
+- **Speed Booster (`server_speed_booster.rs`):** قرآن اور حدیث کے ہیوی ڈیٹا پیجز کو رینڈر کرنے کے لیے اس رسٹ کیشنگ انجن کو سرور لیول پر ایکٹیویٹ کریں تاکہ لوڈنگ اسپیڈ مائیکرو سیکنڈز میں آئے۔
+
+### 🔒 موجودہ فعال سیکیورٹی پروٹوکولز (Active Vault)
+- `advanced_forces_kernel.py` — ہارڈویئر لیول بروٹ فورس پروٹیکشن۔
+- `web_security_middleware.py` — اینٹی ڈی ڈاس (Anti-DDoS) اور ایکس ایس ایس (XSS) فلٹر۔
+- `hardware_kernel_core.asm` — خالص اسمبلی لینگویج بفر پروٹیکشن سمیلیشن۔
+- `localization_kernel.rs` — آئی پی بیسڈ خودکار ملٹی لینگویج روٹنگ انجن۔
+
+---
+
+## 🚀 ایڈسینس منظوری کے لیے اگلا قدم (AdSense Checklist)
+1. اس ریپوزٹری میں موجود `adsenseCompliance.ts` کے مطابق ویب سائٹ پر **Privacy Policy** اور **Terms** کے پیجز لائیو کریں۔
+2. روٹ فولڈر میں گوگل پبلشر آئی ڈی کے ساتھ `ads.txt` فائل جنریٹ کریں۔
+3. نامکمل لنکس کو مینو سے عارضی طور پر ہٹانے کے لیے روٹ شیلڈ آن کریں اور گوگل سرچ کونسل میں دوبارہ ریویو کی درخواست بھیجیں۔
