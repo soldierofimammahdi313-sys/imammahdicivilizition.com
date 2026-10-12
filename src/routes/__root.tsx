@@ -92,6 +92,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Imam Mahdi Civilization — Digital Islamic Platform" },
       { name: "description", content: "A global digital civilization uniting knowledge, media, AI, and community in service of truth. Join Imam Mahdi Civilization." },
+      { name: "robots", content: "index, follow, max-image-preview:large" },
       { name: "author", content: "Imam Mahdi Civilization" },
       { name: "google-site-verification", content: "swS7BQaG-RFOuL0Dj3b0h9sGMX6ZHTivcbF5u8gj7W4" },
       { property: "og:title", content: "Imam Mahdi Civilization — Digital Islamic Platform" },
