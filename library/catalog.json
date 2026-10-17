@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "title": "Imam Mahdi Civilization — Grand Library",
+  "purpose": "Source-tracked catalog for ingesting complete Islamic texts. A catalog entry is not itself a claim that full text has been imported.",
+  "records": [
+    {
+      "id": "quran-ar",
+      "title": "The Holy Qur'an",
+      "titleArabic": "القرآن الكريم",
+      "category": "quran",
+      "languages": [
+        "ar"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Tanzil Quran Text",
+          "url": "https://tanzil.net/download/",
+          "kind": "text"
+        }
+      ],
+      "checks": [
+        "verify text version and attribution requirements",
+        "preserve surah/ayah identifiers",
+        "validate against trusted edition"
+      ]
+    },
+    {
+      "id": "quran-translations",
+      "title": "Qur'an translations",
+      "category": "quran-translation",
+      "languages": [
+        "en",
+        "ur"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "QuranEnc",
+          "url": "https://quranenc.com/",
+          "kind": "text"
+        }
+      ],
+      "checks": [
+        "track translator and edition per language",
+        "verify redistribution license for each translation"
+      ]
+    },
+    {
+      "id": "tafsir-al-mizan",
+      "title": "Tafsir al-Mizan",
+      "titleArabic": "الميزان في تفسير القرآن",
+      "category": "tafsir",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [],
+      "checks": [
+        "identify edition and translator",
+        "verify copyright and redistribution permission before importing"
+      ]
+    },
+    {
+      "id": "nahj-al-balagha",
+      "title": "Nahj al-Balaghah",
+      "titleArabic": "نهج البلاغة",
+      "category": "hadith-and-sermons",
+      "languages": [
+        "ar",
+        "en",
+        "ur"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Nahj al-Balaghah online reference",
+          "url": "https://www.nahjalbalaghah.org/",
+          "kind": "reference"
+        }
+      ],
+      "checks": [
+        "preserve sermon/letter/saying numbering",
+        "identify editor and translation edition",
+        "verify rights for each text/translation"
+      ]
+    },
+    {
+      "id": "sahih-al-bukhari",
+      "title": "Sahih al-Bukhari",
+      "titleArabic": "صحيح البخاري",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "record narrator and grading where supplied",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "sahih-muslim",
+      "title": "Sahih Muslim",
+      "titleArabic": "صحيح مسلم",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "record narrator and grading where supplied",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "sunan-abi-dawud",
+      "title": "Sunan Abi Dawud",
+      "titleArabic": "سنن أبي داود",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "jami-al-tirmidhi",
+      "title": "Jami al-Tirmidhi",
+      "titleArabic": "جامع الترمذي",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "preserve grading with attribution",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "sunan-al-nasai",
+      "title": "Sunan al-Nasa'i",
+      "titleArabic": "سنن النسائي",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "sunan-ibn-majah",
+      "title": "Sunan Ibn Majah",
+      "titleArabic": "سنن ابن ماجه",
+      "category": "hadith",
+      "languages": [
+        "ar",
+        "en"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [
+        {
+          "name": "Open Hadith Data",
+          "url": "https://github.com/Jaguar16/open-hadith-data",
+          "kind": "repository"
+        }
+      ],
+      "checks": [
+        "validate collection coverage and numbering",
+        "verify dataset license"
+      ]
+    },
+    {
+      "id": "al-kafi",
+      "title": "Al-Kafi",
+      "titleArabic": "الكافي",
+      "category": "hadith",
+      "languages": [
+        "ar"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [],
+      "checks": [
+        "identify a reliable digital edition",
+        "record volume/chapter/hadith identifiers",
+        "verify text and redistribution rights"
+      ]
+    },
+    {
+      "id": "mafatih-al-jinan",
+      "title": "Mafatih al-Jinan",
+      "titleArabic": "مفاتيح الجنان",
+      "category": "supplications",
+      "languages": [
+        "ar",
+        "fa",
+        "ur"
+      ],
+      "contentStatus": "source_required",
+      "sourceCandidates": [],
+      "checks": [
+        "verify edition and prayer text",
+        "attribute compiler and translator",
+        "verify rights for modern translations"
+      ]
+    }
+  ]
+}
